@@ -1,7 +1,16 @@
 {
-"functions":{
-    "paginas/index.php":{
-        "runtime":"vercel-php@0.6.0"
+    "functions": {
+        "paginas/index.php": {
+            "runtime": "vercel-php@0.6.0"
+        },
+        "paginas/menu_comida.php": {
+            "runtime": "vercel-php@0.6.0"
+        },
+        "paginas/noso.php": {
+            "runtime": "vercel-php@0.6.0"
+        },
+        "paginas/contacto.php": {
+            "runtime": "vercel-php@0.6.0"
+        }
     }
-}
 }
