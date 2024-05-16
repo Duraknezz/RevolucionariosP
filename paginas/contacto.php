@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +11,6 @@
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
     <?php require('/layouts/header.php'); ?>
 </head>
-
 <body>
     <section id="principalContacto">
         <div class="contenedor">
@@ -26,7 +24,6 @@
             </div>
         </div>
     </section>
-
     <section id="sociales">
         <div class="contacto">
             <h1>CONTACTO</h1>
@@ -40,11 +37,9 @@
             </div>
         </div>
     </section>
-
     <section class="sucursales">
         <h1 class="sucursales">SUCURSALES</h1>
     </section>
-
     <section id="contacto">
         <div id="mapita">
             <div id="map">
@@ -62,13 +57,11 @@
             </div>
         </div>
     </section>
-
     <section id="flecha">
         <div class="direccion">
             <p><i class="em em-arrow_right_hook" aria-role="presentation" aria-label="RIGHTWARDS ARROW WITH HOOK"></i> Av. Torreón Nuevo 519, Vicente Riva Palacio, 58116 Morelia, Mich.</p>
         </div>
     </section>
-
     <?php require('/layouts/footer.php'); ?>
 </body>
 </html>
