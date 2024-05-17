@@ -9,7 +9,7 @@
     <script src="/js/script.js"></script>
     <script src="https://kit.fontawesome.com/3e5cca439c.js" crossorigin="anonymous"></script>
     <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-    <?php require('/layouts/header.php'); ?>
+    <?php require('../layouts/header.php'); ?>
 </head>
 <body>
     <section id="principalContacto">
@@ -62,6 +62,6 @@
             <p><i class="em em-arrow_right_hook" aria-role="presentation" aria-label="RIGHTWARDS ARROW WITH HOOK"></i> Av. Torreón Nuevo 519, Vicente Riva Palacio, 58116 Morelia, Mich.</p>
         </div>
     </section>
-    <?php require('/layouts/footer.php'); ?>
+    <?php require('../layouts/footer.php'); ?>
 </body>
 </html>

@@ -1,43 +1,28 @@
 {
     "version": 2,
     "builds": [
-        {
-            "src": "paginas/**/*.php",
-            "use": "@vercel/php"
-        },
-        {
-            "src": "layouts/**/*.php",
-            "use": "@vercel/php"
-        },
-        {
-            "src": "js/**/*.js",
-            "use": "@vercel/node"
-        },
-        {
-            "src": "Nosotros/**/*.js",
-            "use": "@vercel/node"
-        }
+      {
+        "src": "api/**/*.php",
+        "use": "@vercel/php"
+      },
+      {
+        "src": "js/**/*.js",
+        "use": "@vercel/node"
+      }
     ],
     "routes": [
-        {
-            "src": "/paginas/(.*)",
-            "dest": "/paginas/$1"
-        },
-        {
-            "src": "/layouts/(.*)",
-            "dest": "/layouts/$1"
-        },
-        {
-            "src": "/js/(.*)",
-            "dest": "/js/$1"
-        },
-        {
-            "src": "/Nosotros/(.*)",
-            "dest": "/Nosotros/$1"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/$1"
-        }
+      {
+        "src": "/api/(.*)",
+        "dest": "/api/$1"
+      },
+      {
+        "src": "/js/(.*)",
+        "dest": "/js/$1"
+      },
+      {
+        "src": "/(.*)",
+        "dest": "/$1"
+      }
     ]
-}
+  }
+  
